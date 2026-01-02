@@ -43,12 +43,6 @@ async function removeItem(userCart, item){
 
 }
 
-// async function removeItem(userCart, index){
-//     const deletedIndex = index - 1; // to fix user-friendly index
-//     if(index >=0  && index < userCart.length){
-//         userCart.splice(deletedIndex, 1);
-//     }
-// }
 
 export { 
     addItem, 
